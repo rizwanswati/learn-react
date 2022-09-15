@@ -1,25 +1,48 @@
 import logo from './logo.svg';
 import './App.css';
+import Users from "./Users";
+import State from "./State";
+import Statewithclass from "./Statewithclass";
+import Participants from "./Participants";
+import Properties from "./Properties";
+import {useState} from "react";
+import Propsclass from "./Propsclass";
+import Textinput from "./Textinput";
+import Toggle from "./Toggle";
+import Form from "./Form";
+import ConditionalRendering from "./ConditionalRendering";
+import FormValidation from "./FormValidation";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let data = "Tahir Mehfooz PM";
+    function banana() {
+        data = 'Let the change begin';
+        alert('party')
+    }
+
+    const [name,setNname] = useState("Rizwan");
+    function changeData(){
+        setNname('Tahir')
+    }
+
+    return (
+        <div className="App"><h1>Learning react</h1>
+            <Users></Users>
+            <Participants></Participants>
+            <State />
+            <Statewithclass />
+            <button onClick={()=>banana()}>Click Me</button>
+            <Properties name={name} phone = {"03122077722"} others={{address:"Abbottabad"}} />
+            <button onClick={()=>changeData()}>Update Name</button>
+            <Propsclass name = {name} />
+            <Textinput></Textinput>
+            <Toggle></Toggle>
+            <Form></Form>
+            <ConditionalRendering />
+            <FormValidation />
+        </div>
+    );
 }
 
 export default App;
