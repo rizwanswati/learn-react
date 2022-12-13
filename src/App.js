@@ -5,7 +5,7 @@ import State from "./State";
 import Statewithclass from "./Statewithclass";
 import Participants from "./Participants";
 import Properties from "./Properties";
-import {useState} from "react";
+import {useState} from "react"; // useState is a hook
 import Propsclass from "./Propsclass";
 import Textinput from "./Textinput";
 import Toggle from "./Toggle";
