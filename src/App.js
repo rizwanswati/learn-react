@@ -18,36 +18,43 @@ import ExcomponentDidMount from "./ExcomponentDidMount";
 
 function App() {
     let data = "Tahir Mehfooz PM";
+
     function banana() {
         data = 'Let the change begin';
         alert('party')
     }
 
-    const [name,setNname] = useState("Rizwan");
-    function changeData(){
+    const [name, setNname] = useState("Rizwan");
+
+    function changeData() {
         setNname('Tahir')
     }
 
-    const[email, setEmail] = useState('rizwan.akhwandzada@gmail.com')
+    const [email, setEmail] = useState('rizwan.akhwandzada@gmail.com')
+    const [show, setVisibility] = useState(true)
 
     return (
         <div className="App"><h1>Learning react</h1>
             <Users></Users>
             <Participants></Participants>
-            <State />
-            <Statewithclass />
-            <button onClick={()=>banana()}>Click Me</button>
-            <Properties name={name} phone = {"03122077722"} others={{address:"Abbottabad"}} />
-            <button onClick={()=>changeData()}>Update Name</button>
-            <Propsclass name = {name} />
+            <State/>
+            <Statewithclass/>
+            <button onClick={() => banana()}>Click Me</button>
+            <Properties name={name} phone={"03122077722"} others={{address: "Abbottabad"}}/>
+            <button onClick={() => changeData()}>Update Name</button>
+            <Propsclass name={name}/>
             <Textinput></Textinput>
             <Toggle></Toggle>
             <Form></Form>
-            <ConditionalRendering />
-            <FormValidation />
-            <Rendercheck email={email} />
-            <button onClick={()=>setEmail('rizwan.swati@hotmail.com')}>Update Email</button>
-            <ExcomponentDidMount />
+            <ConditionalRendering/>
+            <FormValidation/>
+            <Rendercheck email={email}/>
+            <button onClick={() => setEmail('rizwan.swati@hotmail.com')}>Update Email</button>
+            {
+                show ? <ExcomponentDidMount />: <div>Nothing</div>
+            }
+
+            <button onClick={() => setVisibility(!show)}>Toggle</button>
         </div>
     );
 }

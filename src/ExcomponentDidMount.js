@@ -17,6 +17,10 @@ class ExcomponentDidMount extends react.Component{
         }
     }
 
+    componentWillUnmount() {
+        console.warn('componentWillUnmount')
+    }
+
     componentDidMount() {
         console.warn('componentDidMount')
     }
