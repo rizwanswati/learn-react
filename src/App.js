@@ -13,6 +13,7 @@ import Form from "./Form";
 import ConditionalRendering from "./ConditionalRendering";
 import FormValidation from "./FormValidation";
 import Rendercheck from "./Rendercheck";
+import ExcomponentDidMount from "./ExcomponentDidMount";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
             <FormValidation />
             <Rendercheck email={email} />
             <button onClick={()=>setEmail('rizwan.swati@hotmail.com')}>Update Email</button>
+            <ExcomponentDidMount />
         </div>
     );
 }

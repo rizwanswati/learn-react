@@ -25,7 +25,6 @@ class Rendercheck extends react.Component {
     * */
     constructor() {
         super();
-        console.log(this.props)
     }
     render() {
         return (
