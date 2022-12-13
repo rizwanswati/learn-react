@@ -12,6 +12,7 @@ import Toggle from "./Toggle";
 import Form from "./Form";
 import ConditionalRendering from "./ConditionalRendering";
 import FormValidation from "./FormValidation";
+import Rendercheck from "./Rendercheck";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
     function changeData(){
         setNname('Tahir')
     }
+
+    const[email, setEmail] = useState('rizwan.akhwandzada@gmail.com')
 
     return (
         <div className="App"><h1>Learning react</h1>
@@ -41,6 +44,8 @@ function App() {
             <Form></Form>
             <ConditionalRendering />
             <FormValidation />
+            <Rendercheck email={email} />
+            <button onClick={()=>setEmail('rizwan.swati@hotmail.com')}>Update Email</button>
         </div>
     );
 }
