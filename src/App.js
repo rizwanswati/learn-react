@@ -16,6 +16,7 @@ import Rendercheck from "./Rendercheck";
 import ExcomponentDidMount from "./ExcomponentDidMount";
 import Hooks from "./Hooks"
 import UseEffectWithProps from "./UseEffectWithProps";
+import Bootsraping from "./Bootsraping";
 
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
 
             <button onClick={()=>setCount(count+1)} >Update Count</button>
             <button onClick={()=>setdataa(dataa+1)} >Update Dataa</button>
+            <Bootsraping />
 
         </div>
     );
