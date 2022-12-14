@@ -14,6 +14,7 @@ import ConditionalRendering from "./ConditionalRendering";
 import FormValidation from "./FormValidation";
 import Rendercheck from "./Rendercheck";
 import ExcomponentDidMount from "./ExcomponentDidMount";
+import Hooks from "./Hooks"
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
             }
 
             <button onClick={() => setVisibility(!show)}>Toggle</button>
+            <Hooks />
         </div>
     );
 }
