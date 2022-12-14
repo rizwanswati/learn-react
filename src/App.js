@@ -15,6 +15,7 @@ import FormValidation from "./FormValidation";
 import Rendercheck from "./Rendercheck";
 import ExcomponentDidMount from "./ExcomponentDidMount";
 import Hooks from "./Hooks"
+import UseEffectWithProps from "./UseEffectWithProps";
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
 
     const [email, setEmail] = useState('rizwan.akhwandzada@gmail.com')
     const [show, setVisibility] = useState(true)
+    const [count,setCount] = useState(5);
+    const [dataa,setdataa] = useState(10);
 
     return (
         <div className="App"><h1>Learning react</h1>
@@ -57,6 +60,11 @@ function App() {
 
             <button onClick={() => setVisibility(!show)}>Toggle</button>
             <Hooks />
+            <UseEffectWithProps count = {count} dataa={dataa} />
+
+            <button onClick={()=>setCount(count+1)} >Update Count</button>
+            <button onClick={()=>setdataa(dataa+1)} >Update Dataa</button>
+
         </div>
     );
 }

@@ -11,7 +11,8 @@ function Hooks() {
     const [count1, setCount1] = useState(0);
     useEffect(() => {
         console.warn('Use Effect')
-    },[count]); //deps: only useEffect only when count is updated, do nothing when count1 is updating.
+    },[count]); //deps: only useEffect only when count is updated, do nothing when count1 is updating. comma separated depandacies
+    // same for props as well.
 
     return (
         <div>
