@@ -17,6 +17,9 @@ import ExcomponentDidMount from "./ExcomponentDidMount";
 import Hooks from "./Hooks"
 import UseEffectWithProps from "./UseEffectWithProps";
 import Bootsraping from "./Bootsraping";
+import ArrayListTableMapFunction from "./ArrayListTableMapFunction";
+
+
 
 
 function App() {
@@ -66,6 +69,7 @@ function App() {
             <button onClick={()=>setCount(count+1)} >Update Count</button>
             <button onClick={()=>setdataa(dataa+1)} >Update Dataa</button>
             <Bootsraping />
+            <ArrayListTableMapFunction />
 
         </div>
     );
