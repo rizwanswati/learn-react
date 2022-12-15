@@ -22,14 +22,14 @@ function ArrayListTableMapFunction() {
     * */
 
     return (
-        <di>
+        <div>
             <Table striped hover variant="dark" size="sm">
-                <thead>
-                <th>Key</th>
-                <th>Name</th>
-                <th>RolNo</th>
-                <th>Program</th>
-                </thead>
+                <tr>
+                <td>Key</td>
+                <td>Name</td>
+                <td>RolNo</td>
+                <td>Program</td>
+                </tr>
                 <tbody>
 
                 {
@@ -44,7 +44,7 @@ function ArrayListTableMapFunction() {
                 }
                 </tbody>
             </Table>
-        </di>
+        </div>
     );
 }
 

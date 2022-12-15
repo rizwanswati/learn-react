@@ -18,6 +18,7 @@ import Hooks from "./Hooks"
 import UseEffectWithProps from "./UseEffectWithProps";
 import Bootsraping from "./Bootsraping";
 import ArrayListTableMapFunction from "./ArrayListTableMapFunction";
+import MainComponent from "./MainComponent";
 
 
 
@@ -70,7 +71,7 @@ function App() {
             <button onClick={()=>setdataa(dataa+1)} >Update Dataa</button>
             <Bootsraping />
             <ArrayListTableMapFunction />
-
+            <MainComponent />
         </div>
     );
 }
