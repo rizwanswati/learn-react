@@ -17,6 +17,10 @@ function ArrayListTableMapFunction() {
         },
     ];
 
+    /*
+    * For nested array, use item.nesteditem.variableNames
+    * */
+
     return (
         <di>
             <Table striped hover variant="dark" size="sm">
