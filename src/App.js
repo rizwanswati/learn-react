@@ -19,6 +19,8 @@ import UseEffectWithProps from "./UseEffectWithProps";
 import Bootsraping from "./Bootsraping";
 import ArrayListTableMapFunction from "./ArrayListTableMapFunction";
 import MainComponent from "./MainComponent";
+import Fragments from "./Fragments";
+import LiftingUpTheState from "./LiftingUpTheState";
 
 
 
@@ -72,6 +74,8 @@ function App() {
             <Bootsraping />
             <ArrayListTableMapFunction />
             <MainComponent />
+            <Fragments />
+            <LiftingUpTheState/>
         </div>
     );
 }
