@@ -22,6 +22,7 @@ import MainComponent from "./MainComponent";
 import Fragments from "./Fragments";
 import LiftingUpTheState from "./LiftingUpTheState";
 import NonRerendringComponent from "./NonRerendringComponent";
+import ExUseMemoHook from "./ExUseMemoHook";
 
 
 
@@ -77,6 +78,7 @@ function App() {
             <Fragments />
             <LiftingUpTheState/>
             <NonRerendringComponent />
+            <ExUseMemoHook />
         </div>
     );
 }
