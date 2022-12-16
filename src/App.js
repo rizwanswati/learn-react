@@ -25,7 +25,8 @@ import NonRerendringComponent from "./NonRerendringComponent";
 import ExUseMemoHook from "./ExUseMemoHook";
 import RefInClassComponent from "./RefInClassComponent";
 import Car from "./Car";
-
+import HOC from "./HOC";
+import HighOrderComponent from "./HighOrderComponent";
 
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
         alert('party')
     }
 
+
+    const [comp, setComp] = useState(HighOrderComponent)
+
     const [name, setNname] = useState("Rizwan");
 
     function changeData() {
@@ -44,7 +48,7 @@ function App() {
 
     const [email, setEmail] = useState('rizwan.akhwandzada@gmail.com')
     const [show, setVisibility] = useState(true)
-    const [count,setCount] = useState(5);
+    const [count, setCount] = useState(5);
     const [dataa,setdataa] = useState(10);
 
     return (
@@ -73,16 +77,20 @@ function App() {
             <UseEffectWithProps count = {count} dataa={dataa} />
 
             <button onClick={()=>setCount(count+1)} >Update Count</button>
-            <button onClick={()=>setdataa(dataa+1)} >Update Dataa</button>
-            <Bootsraping />
-            <ArrayListTableMapFunction />
-            <MainComponent />
-            <Fragments />
+            <button onClick={() => setdataa(dataa + 1)}>Update Dataa</button>
+            <Bootsraping/>
+            <ArrayListTableMapFunction/>
+            <MainComponent/>
+            <Fragments/>
             <LiftingUpTheState/>
-            <NonRerendringComponent />
-            <ExUseMemoHook />
-            <RefInClassComponent />
-            <Car />
+            <NonRerendringComponent/>
+            <ExUseMemoHook/>
+            <RefInClassComponent/>
+            <Car/>
+            <HOC comp={comp} background={"red"} heigh={"100px"} weidth={"100px"}/>
+            <HOC comp={comp} background={"green"} heigh={"100px"} weidth={"100px"}/>
+            <HOC comp={comp} background={"blue"} heigh={"100px"} weidth={"100px"}/>
+
         </div>
     );
 }
