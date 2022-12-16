@@ -1,3 +1,7 @@
+/*
+* It will be called a Controlled component since the input is controlled via state.
+* */
+
 import React, {useState} from "react";
 
 function Textinput() {
