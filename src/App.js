@@ -21,7 +21,7 @@ import ArrayListTableMapFunction from "./ArrayListTableMapFunction";
 import MainComponent from "./MainComponent";
 import Fragments from "./Fragments";
 import LiftingUpTheState from "./LiftingUpTheState";
-
+import NonRerendringComponent from "./NonRerendringComponent";
 
 
 
@@ -76,6 +76,7 @@ function App() {
             <MainComponent />
             <Fragments />
             <LiftingUpTheState/>
+            <NonRerendringComponent />
         </div>
     );
 }
