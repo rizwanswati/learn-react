@@ -24,6 +24,7 @@ import LiftingUpTheState from "./LiftingUpTheState";
 import NonRerendringComponent from "./NonRerendringComponent";
 import ExUseMemoHook from "./ExUseMemoHook";
 import RefInClassComponent from "./RefInClassComponent";
+import Car from "./Car";
 
 
 
@@ -81,6 +82,7 @@ function App() {
             <NonRerendringComponent />
             <ExUseMemoHook />
             <RefInClassComponent />
+            <Car />
         </div>
     );
 }
