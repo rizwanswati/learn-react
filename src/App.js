@@ -30,6 +30,14 @@ import HighOrderComponent from "./HighOrderComponent";
 
 
 function App() {
+
+    const [comp, setComp] = useState(HighOrderComponent)
+    const [name, setNname] = useState("Rizwan");
+    const [email, setEmail] = useState('rizwan.akhwandzada@gmail.com')
+    const [show, setVisibility] = useState(true)
+    const [count, setCount] = useState(5);
+    const [dataa, setdataa] = useState(10);
+
     let data = "Tahir Mehfooz PM";
 
     function banana() {
@@ -37,19 +45,9 @@ function App() {
         alert('party')
     }
 
-
-    const [comp, setComp] = useState(HighOrderComponent)
-
-    const [name, setNname] = useState("Rizwan");
-
     function changeData() {
         setNname('Tahir')
     }
-
-    const [email, setEmail] = useState('rizwan.akhwandzada@gmail.com')
-    const [show, setVisibility] = useState(true)
-    const [count, setCount] = useState(5);
-    const [dataa,setdataa] = useState(10);
 
     return (
         <div className="App"><h1>Learning react</h1>
@@ -69,14 +67,14 @@ function App() {
             <Rendercheck email={email}/>
             <button onClick={() => setEmail('rizwan.swati@hotmail.com')}>Update Email</button>
             {
-                show ? <ExcomponentDidMount />: <div>Nothing</div>
+                show ? <ExcomponentDidMount/> : <div>Nothing</div>
             }
 
             <button onClick={() => setVisibility(!show)}>Toggle</button>
-            <Hooks />
-            <UseEffectWithProps count = {count} dataa={dataa} />
+            <Hooks/>
+            <UseEffectWithProps count={count} dataa={dataa}/>
 
-            <button onClick={()=>setCount(count+1)} >Update Count</button>
+            <button onClick={() => setCount(count + 1)}>Update Count</button>
             <button onClick={() => setdataa(dataa + 1)}>Update Dataa</button>
             <Bootsraping/>
             <ArrayListTableMapFunction/>
