@@ -1,5 +1,8 @@
+/*
+* following is a controlled component since it is manipulated via state.
+* if ref or direct js ID is used, this component will be an uncontrolled component.
+* */
 import React,{useState} from "react";
-
 function ShowForm() {
 
     const [name, setName] = useState("");
@@ -9,11 +12,11 @@ function ShowForm() {
     function PreventSubmit(event) {
         event.preventDefault();
         console.warn(name, option, consent);
-    } 
+    }
 
     return (
         <div>
-            <h1>Handle Form in React</h1>
+            <h1>Handle Login Form in React</h1>
             <form onSubmit={PreventSubmit}>
                 <input type={"text"} onChange={(e) => setName(e.target.value)}/>
                 <select onChange={(e) => setOption(e.target.value)}>
