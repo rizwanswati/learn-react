@@ -7,6 +7,8 @@ function NaBar() {
         <di>
             <ListGroup as="ul">
                 <ListGroup.Item as="li"><Link to="/Home">Home</Link></ListGroup.Item>
+                <ListGroup.Item as="li"><Link to="/user/Rizwan/Ullah">Rizwan</Link></ListGroup.Item>
+                <ListGroup.Item as="li"><Link to="/user/Mudasssar/Sarfraz">Mudassar</Link></ListGroup.Item>
                 <ListGroup.Item as="li"><Link to="/">About</Link></ListGroup.Item>
                 <ListGroup.Item as="li"><Link to="/contact">Contact Us</Link></ListGroup.Item>
             </ListGroup>
