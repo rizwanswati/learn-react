@@ -10,7 +10,6 @@ import ErrorPage404 from "./ErrorPage404";
 function App() {
     return (
         <div className="App">
-            <h1>Learning react</h1>
             <BrowserRouter>
                 <NaBar/>
                 <Routes>
