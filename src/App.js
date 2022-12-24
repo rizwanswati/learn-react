@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
+import {BrowserRouter, Route, Routes, Link, Navigate} from "react-router-dom";
 import Home from "./component/Home";
 import About from "./component/About";
 import NaBar from "./component/NaBar";
+import ErrorPage404 from "./ErrorPage404";
 
 function App() {
     return (
@@ -14,6 +15,8 @@ function App() {
                 <Routes>
                     <Route path={"/"} element={<About/>}/>
                     <Route path="/home" element={<Home/>}/>
+                    {/*<Route path="/*" element={<ErrorPage404 />}/>*/}
+                    <Route path="/*" element={<Navigate to={"/"}/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
