@@ -25,6 +25,9 @@ function NaBar() {
                 <li><NavLink className="nav-bar-link" style={({isActive}) => {
                     return {backgroundColor: isActive ? "green" : "red"}
                 }} to={"/*"}>Contact</NavLink></li>
+                <li><NavLink className="nav-bar-link" style={({isActive}) => {
+                    return {backgroundColor: isActive ? "green" : "red"}
+                }} to={"/companies"}>Companies</NavLink></li>
             </ul>
 
         </div>
