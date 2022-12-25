@@ -11,6 +11,7 @@ function PostAPI() {
     const [name, setName] = useState("");
     const [username, setUsername] = useState("");
     const [age, setAge] = useState("");
+    const [data, setData] = useState([])
 
     function PostData() {
 
@@ -26,7 +27,7 @@ function PostAPI() {
             },
             body: JSON.stringify(data)
         }).then((response) => {
-            console.log(response)
+            console.info(response)
         })
     }
 

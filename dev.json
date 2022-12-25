@@ -31,12 +31,6 @@
       "age": 67
     },
     {
-      "id": 7,
-      "username": "DMoser",
-      "name": "Fang Krasowski",
-      "age": 59
-    },
-    {
       "id": 8,
       "username": "KHudgens",
       "name": "Emi Rice",
@@ -91,10 +85,10 @@
       "age": 80
     },
     {
-      "id": 17,
+      "name": "Roberta Depreta Apty",
       "username": "AFerguson",
-      "name": "Roberta Depreta",
-      "age": 34
+      "age": "50",
+      "id": 17
     },
     {
       "id": 18,
@@ -140,9 +134,15 @@
     },
     {
       "name": "Jannat",
-      "username": "doctor",
+      "username": "Ejaz khan",
       "age": "27",
       "id": 25
+    },
+    {
+      "name": "Ammi",
+      "username": "walida",
+      "age": "62",
+      "id": 26
     }
   ]
 }
