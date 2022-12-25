@@ -9,8 +9,6 @@ function App() {
     return (
         <div className="App">
             <h1>React APIs</h1>
-            <GetAPI/>
-            <PostAPI/>
         </div>
     );
 }
