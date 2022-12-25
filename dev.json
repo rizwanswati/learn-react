@@ -1,0 +1,148 @@
+{
+  "user": [
+    {
+      "id": 2,
+      "username": "KGrimes",
+      "name": "Gautam Difrancesco",
+      "age": 65
+    },
+    {
+      "id": 3,
+      "username": "DLompa",
+      "name": "Harold Shiffman",
+      "age": 24
+    },
+    {
+      "id": 4,
+      "username": "JLopez",
+      "name": "Theresa Ragusa",
+      "age": 79
+    },
+    {
+      "id": 5,
+      "username": "GDouglas",
+      "name": "Ying Hunt",
+      "age": 50
+    },
+    {
+      "id": 6,
+      "username": "OFavus",
+      "name": "Maria Ekekwe",
+      "age": 67
+    },
+    {
+      "id": 7,
+      "username": "DMoser",
+      "name": "Fang Krasowski",
+      "age": 59
+    },
+    {
+      "id": 8,
+      "username": "KHudgens",
+      "name": "Emi Rice",
+      "age": 37
+    },
+    {
+      "id": 9,
+      "username": "MHull",
+      "name": "Jaeho Vasquez",
+      "age": 22
+    },
+    {
+      "id": 10,
+      "username": "SMortimore",
+      "name": "Dusanka Braswell",
+      "age": 51
+    },
+    {
+      "id": 11,
+      "username": "WGeouque",
+      "name": "Amani Maddalone",
+      "age": 37
+    },
+    {
+      "id": 12,
+      "username": "DDominique",
+      "name": "Abigail Hambrick",
+      "age": 21
+    },
+    {
+      "id": 13,
+      "username": "KDemarco",
+      "name": "Marita Klepsteen",
+      "age": 43
+    },
+    {
+      "id": 14,
+      "username": "TOconnor",
+      "name": "Lenora Buikema",
+      "age": 69
+    },
+    {
+      "id": 15,
+      "username": "VMcwhorter",
+      "name": "Sheri Bartlett",
+      "age": 69
+    },
+    {
+      "id": 16,
+      "username": "CKish",
+      "name": "Kathe Espinosa",
+      "age": 80
+    },
+    {
+      "id": 17,
+      "username": "AFerguson",
+      "name": "Roberta Depreta",
+      "age": 34
+    },
+    {
+      "id": 18,
+      "username": "LHruska",
+      "name": "Fred Schoenbauer",
+      "age": 58
+    },
+    {
+      "id": 19,
+      "username": "BBeverage",
+      "name": "Evelyn Harris",
+      "age": 68
+    },
+    {
+      "id": 20,
+      "username": "MAlvarez",
+      "name": "Phuong Greaves",
+      "age": 56
+    },
+    {
+      "username": "Rizwan",
+      "name": "Rizwan Ullah",
+      "age": 30,
+      "id": 21
+    },
+    {
+      "username": "Usama",
+      "name": "Usama Khan",
+      "age": 23,
+      "id": 22
+    },
+    {
+      "username": "Mussadaq",
+      "name": "Mussadaq Khan",
+      "age": 33,
+      "id": 23
+    },
+    {
+      "name": "Nafees",
+      "username": "hassan",
+      "age": "37",
+      "id": 24
+    },
+    {
+      "name": "Jannat",
+      "username": "doctor",
+      "age": "27",
+      "id": 25
+    }
+  ]
+}
