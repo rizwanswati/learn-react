@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+/*
+* Moving to another project for redux. see ya!!
+* */
 function App() {
     return (
         <div className="App">
