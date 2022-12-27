@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import GetAPI from "./component/GetAPI";
-import PostAPI from "./component/PostAPI";
 
 
 function App() {
